@@ -32,3 +32,17 @@ Ele é rodado automaticamente na criação de um objeto, e serve para inicializa
  
 Por exemplo: No nascimento de uma pessoa, os atributos altura e massa são definidos,
  e o método chorar é chamado.
+
+
+ENCAPSULAMENTO:
+O pilar do encapsulamento consiste na exibição e concessão de acesso 
+para quem usa a classe apenas daquilo que ela pode/deve de fato ver ou interagir.
+A ideia é garantir que os processos internos da classe possam ocorrer sem que a 
+pessoa que a utiliza altere atributos de forma indevida,
+ o que poderia ocasionar em problemas no funcionamento. 
+Para isso existem os modificadores de visibilidade do atributo, sendo os principais:
+
+PUBLIC
+PRIVATE
+PROTECTED
+READONLY

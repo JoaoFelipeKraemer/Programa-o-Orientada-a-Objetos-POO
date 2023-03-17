@@ -33,23 +33,37 @@ class Person {
   */
 
 class Tv {
-brand: string
-size: number
-resolution:  string
-connections: string[]
-connectedTo?: string
+  private _brand: string
+  private _size: number
+  private _resolution:  string
+  private _connections: string[]
+  private _connectedTo?: string
 constructor(n: string, h: number, w: string, x: string[]) {
     console.log(`Creating tv ${n}`);
-    this.brand = n;
-    this.size = h;
-    this.resolution = w;
-    this.connections = x;
+    this._brand = n;
+    this._size = h;
+    this._resolution = w;
+    this._connections = x;
   }
   turnOn(): void{
-    console.log(`${this.brand, this.size, this.resolution, this.connections, this.connectedTo}: bagaça ligada`);
+    console.log(`${this._brand, this._size, this._resolution, this._connections, this._connectedTo}: bagaça ligada`);
+  }
+  get connectedTo(): string | undefined {
+    return this._connectedTo;
+  }
+  set connectedTo(value: string | undefined) {
+    // permite setar undefined ou uma conexão que esteja no `connections`
+    if (!value || this._connections.includes(value)) {
+      this._connectedTo = value;
+      console.log(this._connectedTo);
+    } else {
+      console.log('Sorry, connection unavailable!');
+    }
   }
 }
 
 const novaTv = new Tv('Toshiba', 50, 'HD', ['HDMI', 'Ethernet', 'Wifi'])
-console.log(novaTv.brand, novaTv.size, novaTv.resolution, novaTv.connections);
+// console.log(novaTv.brand, novaTv.size, novaTv.resolution, novaTv.connections);
 novaTv.turnOn();
+novaTv.connectedTo = 'Wi-Fi';
+console.log('Connected to: ', novaTv.connectedTo);
