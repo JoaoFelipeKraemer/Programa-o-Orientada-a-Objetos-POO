@@ -1,0 +1,34 @@
+Conceitos
+
+Classe: 
+é utilizado para determinar algo genérico. Na programação orientada a objetos, 
+toda classe tem como finalidade modelar com precisão a representação de uma entidade do mundo real.
+Um exemplo de uma classe é o conceito Pessoa. Existem várias pessoas no mundo,
+sendo você e eu duas delas, e por mais que sejamos pessoas diferentes, 
+pertencemos a mesma classe Pessoa. Agora repare que eu mencionei que somos pessoas diferentes.
+Isto quer dizer que somos objetos diferentes de uma mesma classe. Objeto (ou instância da classe)
+é algo específico.
+
+Objeto:
+Uma classe é uma estrutura que abstrai um conjunto de objetos com características similares, e um 
+objeto é uma instância (ou seja, um exemplar) de uma classe..
+
+Atributos: Exemplos de atributos de uma Pessoa são: a altura e a massa da Pessoa. 
+Observe que a definição dos atributos é feita na classe, mas os valores são do objeto.
+Todas as pessoas possuem uma altura e uma massa, portanto a definição fica na classe,
+mas minha altura é diferente da sua, e minha massa é diferente da sua, portanto os valores
+são de cada objeto.
+
+Método:Se um atributo representa um valor, como a altura de alguém, um método (ou mensagem)
+retrata uma ação. Por exemplo, uma pessoa pode dormir ou acordar. Observe que, da mesma forma 
+que o atributo, o método é algo que existe para a classe, mas cada objeto pode realizá-lo de 
+forma diferente, única. Todas as pessoas dormem, mas eu posso dormir de lado e você de bruços,
+por exemplo.   
+
+Trazendo para programação: : um atributo é uma variável criada numa classe, e um método é uma 
+função criada numa classe. Um método que merece destaque é o método construtor. 
+Ele é rodado automaticamente na criação de um objeto, e serve para inicializar alguns atributos
+ e chamar alguns métodos. 
+ 
+Por exemplo: No nascimento de uma pessoa, os atributos altura e massa são definidos,
+ e o método chorar é chamado.
