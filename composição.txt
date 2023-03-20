@@ -1,0 +1,12 @@
+ A composição de objetos/classes é uma forma de combinar objetos ou tipos de dados para construir sua estrutura.
+
+Exemplo, é possível notar que perfil, foto e texto estão contidos em conta da rede social, ou seja,
+estabelece-se uma relação de dependência que se você remover a classe principal (conta) 
+a classe secundária (perfil) deixará de fazer sentido, pois é necessário que seu perfil
+esteja vinculado a uma conta.
+
+o segredo para entender se existe relação entre duas classes é se perguntar:
+
+“A classe Secundária (perfil) está contida na classe Principal (conta)?”.
+
+Se a resposta for sim, você tem uma composição. 
