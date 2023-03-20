@@ -1,0 +1,4 @@
+herança que é a capacidade de especializar classes, de forma a atender objetivos mais específicos
+
+composição que é o uso de outras classes, delegando a elas atribuições específicas delas.
+
