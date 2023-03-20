@@ -1,4 +1,5 @@
- A composição de objetos/classes é uma forma de combinar objetos ou tipos de dados para construir sua estrutura.
+COMPOSIÇÃO
+A composição de objetos/classes é uma forma de combinar objetos ou tipos de dados para construir sua estrutura.
 
 Exemplo, é possível notar que perfil, foto e texto estão contidos em conta da rede social, ou seja,
 estabelece-se uma relação de dependência que se você remover a classe principal (conta) 
