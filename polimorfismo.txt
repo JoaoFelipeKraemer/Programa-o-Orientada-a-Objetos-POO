@@ -1,0 +1,2 @@
+Polimorfismo vem do grego muitas formas, e nos remete às várias formas que
+ um mesmo método pode possuir.
