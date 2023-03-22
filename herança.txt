@@ -1,0 +1,10 @@
+HERANÇA que é a capacidade de especializar classes, de forma a atender objetivos mais específicos
+-O pilar herança permite que classes herdeiras de outras sejam criadas, de forma a 
+herdar também seus métodos e atributos.Pense na classe Pessoa, com os atributos nome e
+ altura e com o método sonhar. A partir dessa classe Pessoa, é possível criar uma classe
+ herdeira dela, chamada PessoaCantora, que por herdar de Pessoa,
+erá automaticamente os atributos nome e altura e o método sonhar, 
+mas poderá ter um método somente dela: cantar.
+
+composição que é o uso de outras classes, delegando a elas atribuições específicas delas.
+
